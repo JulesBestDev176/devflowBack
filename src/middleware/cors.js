@@ -33,9 +33,7 @@ const corsConfig = {
       // En production : liste stricte des domaines autorisés
       const allowedOrigins = [
         process.env.FRONTEND_URL,
-        'https://devllow.com',
-        'https://www.devllow.com',
-        'https://portfolio.devllow.com'
+        'https://devflow-j4pj.onrender.com/',
       ].filter(Boolean); // Supprimer les valeurs nulles/undefined
 
       // Autoriser les requêtes sans origin en production aussi (API calls, mobile apps)
